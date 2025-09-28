@@ -1,0 +1,12 @@
+{
+  "connection_name": "databricks_test",
+  "workspace_url": "https://your-workspace.databricks.com",
+  "access_token": "${DATABRICKS_ACCESS_TOKEN}",
+  "cluster_id": "${DATABRICKS_CLUSTER_ID}",
+  "warehouse_id": "${DATABRICKS_WAREHOUSE_ID}",
+  "catalog_name": "test_catalog",
+  "schema_name": "test_schema",
+  "timeout": 60,
+  "max_retries": 3,
+  "retry_delay": 5
+}

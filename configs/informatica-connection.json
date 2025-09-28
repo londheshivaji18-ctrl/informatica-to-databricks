@@ -1,0 +1,11 @@
+{
+  "connection_name": "informatica_test",
+  "connection_type": "informatica_cloud",
+  "host": "your-informatica-host.com",
+  "username": "${INFORMATICA_USERNAME}",
+  "password": "${INFORMATICA_PASSWORD}",
+  "api_base_url": "https://your-pod.informaticacloud.com/ma/api/v2",
+  "timeout": 30,
+  "retry_attempts": 3,
+  "ssl_verify": true
+}

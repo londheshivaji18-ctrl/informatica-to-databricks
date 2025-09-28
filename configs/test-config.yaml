@@ -1,0 +1,25 @@
+test_config:
+  # Test execution settings
+  parallel_execution: true
+  max_concurrent_tests: 5
+  test_timeout_minutes: 30
+  generate_reports: true
+  
+  # Data validation settings
+  validation:
+    row_count_threshold: 0.01  # 1% tolerance
+    data_quality_threshold: 0.95  # 95% quality required
+    schema_validation: strict
+    
+  # Logging settings
+  logging:
+    level: INFO
+    output_format: json
+    include_timestamps: true
+    log_file: "test-execution.log"
+    
+  # Environment settings
+  environment:
+    cleanup_after_tests: true
+    preserve_test_data: false
+    use_cached_results: false

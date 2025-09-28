@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,phone,registration_date,status
+1001,John,Smith,john.smith@email.com,555-0101,2023-01-15,active
+1002,Jane,Doe,jane.doe@email.com,555-0102,2023-02-20,active
+1003,Bob,Johnson,bob.johnson@email.com,555-0103,2023-03-10,inactive
+1004,Alice,Williams,alice.williams@email.com,555-0104,2023-04-05,active
+1005,Charlie,Brown,charlie.brown@email.com,555-0105,2023-05-12,pending
