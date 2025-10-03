@@ -1,0 +1,5 @@
+months_as_customer,age,insured_zip,insured_sex,insured_education_level,insured_occupation,insured_hobbies,insured_relationship,smoker,Ins_Mem_policy_number
+24,45,12345,MALE,Bachelors,Engineer,Reading,Self,Y,100001
+12,36,54321,FEMALE,Masters,Teacher,Chess,Spouse,N,100002
+6,29,67000,FEMALE,HS,Nurse,Running,Child,Y,999999
+

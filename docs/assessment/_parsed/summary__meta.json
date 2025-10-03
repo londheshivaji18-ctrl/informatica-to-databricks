@@ -1,0 +1,87 @@
+{
+  "Summary": {
+    "rows": 72,
+    "cols": 6,
+    "path": "docs\\assessment\\_parsed\\summary_Summary.csv"
+  },
+  "Source Target Details": {
+    "rows": 166,
+    "cols": 12,
+    "path": "docs\\assessment\\_parsed\\summary_Source Target Details.csv"
+  },
+  "Expression Counts": {
+    "rows": 18,
+    "cols": 11,
+    "path": "docs\\assessment\\_parsed\\summary_Expression Counts.csv"
+  },
+  "SQL Constructs": {
+    "rows": 244,
+    "cols": 8,
+    "path": "docs\\assessment\\_parsed\\summary_SQL Constructs.csv"
+  },
+  "Workflows": {
+    "rows": 9,
+    "cols": 24,
+    "path": "docs\\assessment\\_parsed\\summary_Workflows.csv"
+  },
+  "Mapping Mapplet Count": {
+    "rows": 18,
+    "cols": 50,
+    "path": "docs\\assessment\\_parsed\\summary_Mapping Mapplet Count.csv"
+  },
+  "Unsupported-Intended Features": {
+    "rows": 7,
+    "cols": 9,
+    "path": "docs\\assessment\\_parsed\\summary_Unsupported-Intended Features.csv"
+  },
+  "Mapplet Details": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\summary_Mapplet Details.csv"
+  },
+  "Worklets": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\summary_Worklets.csv"
+  },
+  "Mapplets": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\summary_Mapplets.csv"
+  },
+  "Mappings": {
+    "rows": 18,
+    "cols": 7,
+    "path": "docs\\assessment\\_parsed\\summary_Mappings.csv"
+  },
+  "Commands": {
+    "rows": 20,
+    "cols": 8,
+    "path": "docs\\assessment\\_parsed\\summary_Commands.csv"
+  },
+  "Email Details": {
+    "rows": 19,
+    "cols": 10,
+    "path": "docs\\assessment\\_parsed\\summary_Email Details.csv"
+  },
+  "Pattern Details": {
+    "rows": 17,
+    "cols": 2,
+    "path": "docs\\assessment\\_parsed\\summary_Pattern Details.csv"
+  },
+  "Worklets Complexity": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\summary_Worklets Complexity.csv"
+  },
+  "Workflow Complexity": {
+    "rows": 9,
+    "cols": 4,
+    "path": "docs\\assessment\\_parsed\\summary_Workflow Complexity.csv"
+  },
+  "Function Count": {
+    "rows": 23,
+    "cols": 2,
+    "path": "docs\\assessment\\_parsed\\summary_Function Count.csv"
+  }
+}

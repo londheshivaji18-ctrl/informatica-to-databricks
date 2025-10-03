@@ -1,0 +1,19 @@
+Subject Area,Mapping/Mapplet,Mapping/Mapplet Name,Counts of Expression in variable port,Count of Expressions in Output Port,Count of Expressions in Router,Count of Expressions in Filter,Total,Count of Self Referencing Variable expressions, Expression Weightage,Self Referencing Weightage
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Delta_Data_Extraction,16,11,0,1,28,0,320,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Active_One_Time_Extraction,0,2,0,0,2,0,40,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,0,1,0,0,1,0,40,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,17,11,0,1,29,0,320,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,0,106,0,0,106,0,640,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_Transfer_SOR_MF_HDFS_TRIGGER,4,2,0,0,6,0,40,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_output,0,1,0,1,2,0,40,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_1203,0,2,0,0,2,0,40,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,11,8,1,0,20,0,100,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_delete_ods_acord_1203,0,0,0,0,0,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_all_accord,0,2,0,0,2,0,40,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,147,352,0,1,500,18,640,520
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,26,121,0,1,148,6,640,340
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_input,4,2,1,0,7,1,40,150
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_T_INS_POL_TRAN_Rejected_Records,0,1,0,1,2,0,40,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_IDI_FTP,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_GVUL_ACCORD_XML,41,80,0,0,121,2,640,150
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_token_creation_for_getplatform,2,4,0,0,6,0,40,0

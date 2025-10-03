@@ -1,0 +1,241 @@
+Subject Area,Workflow Name,Task Type,Session Name,Mapping Name,UnConnected Session,Write Backward Compatible Session Log File,Session Log File Name,Session Log File directory,Parameter Filename,Enable Test Load,Source Connection Value,Treat Source row as,Commit Type,Commit Interval,Commit on end of file,Rollback Transactions on Errors,Recovery Strategy,DTM Buffer Size,Collect Performance Data,Write Performance data to Repository,Incremental Aggregation,Enable High Precision,Session retry on deadlock,Allow Temporary View for Pushdown,Allow Temporary Sequence for Pushdown,Allow Pushdown For User Incompatible Connections,Session Sort Order,Constraint Based Load Ordering,Cache LOOKUP() Function,Default buffer block size,Line Sequential buffer length,Maximum Memory Allowed For Auto Memory Attributes,Maximum Percentage of Total Memory Allowed For Auto Memory Attributes,Additional Concurrent Pipelines for Lookup Cache Creations,Pre-build lookup cache,Date Time Format String,Pre 85 Timestamp Compatibility,Save Session log by,Save Session log for these runs,Session Log File Max Size,Session Log File Max Time Period,Maximum Partial Session Log Files,Writer Commit Statistics Log Frequency,Writer Commit Statistics Log Interval,Stop on Errors,On Stored Procedure error,On Pre-session command task error,On Pre-Post SQL error,Error Log File Directory,Error Log File Name,Log Row Data,Log Source Row Data,Data Column Delimiter,Dynamic Partitioning,Number of Partitions,Pre Session Command Type,Pre Session Command,Pre Session Command Name,Post Session Success Command Type,Post Session Success Command,Post Session Success Command Value,On Failure Email Type,On Failure Email User Name,On Failure Email Subject,On Failure Email Text,On Failure Email Value,Pre session variable assignment Type,Pre session variable assignments,Pre session variable assignment Value,Post session on success variable assignment Type,Post session on success variable assignment Value,Post session on failure variable assignment Type,Post session on failure variable assignment Value
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,s_m_Transfer_HDFS_Member_Diary_Delta_TRIGGER,m_Transfer_SOR_MF_HDFS_TRIGGER,NO,YES,s_m_Transfer_HDFS_Member_Diary_Delta_TRIGGER.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email,Non-reusable,$$Data_file_count_map=$$Data_file_count- (Override),presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Diary_Active_One_Time_Extraction,m_STARTRAK_Member_Diary_Active_One_Time_Extraction,NO,YES,s_m_STARTRAK_Member_Diary_Active_One_Time_Extraction.log,$PMSessionLogDir\,,NO,$DBConnection_SRC,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,$PMSessionErrorThreshold,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Diary_Delta_Data_Extraction,m_STARTRAK_Member_Diary_Delta_Data_Extraction,NO,YES,s_m_STARTRAK_Member_Diary_Delta_Data_Extraction.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,$PMSessionErrorThreshold,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,NO,YES,s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,$PMSessionErrorThreshold,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,s_m_Transfer_HDFS_Member_Member_Active_Onetime_TRIGGER,m_Transfer_SOR_MF_HDFS_TRIGGER,NO,YES,s_m_Transfer_HDFS_Member_Member_Active_Onetime_TRIGGER.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email,Non-reusable,$$Data_file_count_map=$$Data_file_count- (Override),presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,NO,YES,s_m_STARTRAK_Member_Conditions_Active_One_Time_Extraction.log,$PMSessionLogDir\,,NO,$DBConnection_SRC,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,$PMSessionErrorThreshold,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,,,,,,,,,,,,
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Session,s_m_Transfer_HDFS_ACCOUNTING_Onetime_TRIGGER,m_Transfer_SOR_MF_HDFS_TRIGGER,NO,YES,s_m_Transfer_HDFS_ACCOUNTING_Onetime_TRIGGER.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w.$$RUN_INP run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log.$$RUN_INP_x000D_
+Session Log Path                    : $PMSessionLogDir",GBS_Failure_Email,Non-reusable,$$Data_file_count_map=$$Data_file_count- (Override),presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Session,s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,NO,YES,s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,$PMSessionErrorThreshold,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w.$$RUN_INP run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log.$$RUN_INP_x000D_
+Session Log Path                    : $PMSessionLogDir",GBS_Failure_Email,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,s_m_T_INS_POL_TRAN_Rejected_Records,m_T_INS_POL_TRAN_Rejected_Records,NO,YES,s_m_T_INS_POL_TRAN_Rejected_Records.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,24000000,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,1,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Non-reusable,$PMFailureEmailUser,Statistics file generation for T_INS_POL_TRAN failed.,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention_x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",on_failure_mail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,s_m_load_ods_all_accord,m_load_ods_all_accord,NO,YES,s_m_load_ods_all_accord.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Non-reusable,$PMFailureEmailUser,The workflow for loading all Accord information has failed.,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention_x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",on_failure_mail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,s_m_update_opas_all_accord,m_update_opas_all_accord,NO,NO,s_m_update_opas_all_accord.log,$PMSessionLogDir\,,NO,,Data driven,Target,10000,YES,NO,Fail task and continue workflow,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Non-reusable,$PMFailureEmailUser,The workflow for updating all Accord information has failed.,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention_x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",on_failure_mail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_ods_acord_1203,m_load_ods_acord_1203,NO,YES,$PMSessionLogFile,$PMSessionLogDir/,/work/opas_udx/SrcFiles/$PMFolderName.prm,NO,,Insert,Target,10000,YES,NO,Restart task,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,Non-reusable,Command1=echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt,pre_session_command,Non-reusable,"Command1=rm $PMTempDir/$ParamTempTgtFile2,_x000D_
+Command2=",post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_output_1203,m_load_opas_output,NO,YES,$PMSessionLogFile,$PMSessionLogDir/,/work/opas_udx/SrcFiles/$PMFolderName.prm,NO,,Insert,Target,10000,YES,NO,Restart task,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,Non-reusable,Command1=echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt,pre_session_command,Non-reusable,"Command2=,_x000D_
+Command1=rm $PMTempDir/$ParamTempTgtFile",post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_delete_ods_acord_1203,m_delete_ods_acord_1203,NO,YES,$PMSessionLogFile,$PMSessionLogDir/,/work/opas_udx/SrcFiles/$PMFolderName.prm,NO,,Delete,Target,100,YES,NO,Restart task,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,Non-reusable,Command1=echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt,pre_session_command,Non-reusable,Command1=,post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_update_opas_1203,m_update_opas_1203,NO,YES,$PMSessionLogFile,$PMSessionLogDir/,/work/opas_udx/SrcFiles/$PMFolderName.prm,NO,,Data driven,Target,10000,YES,NO,Restart task,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,Non-reusable,Command1=echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt,pre_session_command,Non-reusable,"Command1=rm $PMTempDir/$ParamTempTgtFile,_x000D_
+Command2=",post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_output_1203_Agent,m_load_opas_output,NO,YES,$PMSessionLogFile,$PMSessionLogDir/,/work/opas_udx/SrcFiles/$PMFolderName.prm,NO,,Insert,Target,10000,YES,NO,Restart task,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,Non-reusable,Command1=echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt,pre_session_command,Non-reusable,"Command1=rm $PMTempDir/$ParamTempTgtFile,_x000D_
+Command2=",post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_input_1203,m_load_opas_input,NO,YES,$PMSessionLogFile,$PMSessionLogDir/,/work/opas_udx/SrcFiles/$PMFolderName.prm,NO,,Data driven,Target,10000,YES,NO,Restart task,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,Non-reusable,Command1=echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt,pre_session_command,Non-reusable,"Command1=echo ""</TXLife>"" >>$PMTempDir/$ParamTempTgtFile,_x000D_
+Command2=tr -d '\n\' < $PMTempDir/$ParamTempTgtFile 1>$PMTargetFileDir/$ParamTgtFile,_x000D_
+Command3=rm $PMTempDir/$ParamTempTgtFile,_x000D_
+Command4=",post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_IB_OPAS_UDX,wkf_s_m_load_T_SCHED_VAL_CVR_EX,Session,s_m_load_T_SCHED_VAL_CVR_EX,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,NO,YES,s_cvr_ex.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,0,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,Non-reusable,"Command1=echo -e ""T_SCHED_VAL_CVR_EX,$PMSQ_ASSCHEDULEDVALUATIONFIELD@numAppliedRows,$PMT_SCHED_VAL_CVR_EX@numAppliedRows"" > /work/opas_udx/TgtFiles/outbound/CVR_EX.csv",post_session_success_command,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_token_creation_for_getplatform,Session,s_m_LENOX_token_creation_for_getplatform,m_LENOX_token_creation_for_getplatform,NO,YES,s_m_LENOX_token_creation_for_getplatform.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,1,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,,,,,,,,,,,,
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_GVUL_ACCORD_XML,Session,s_m_LENOX_GVUL_ACCORD_XML,m_LENOX_GVUL_ACCORD_XML,NO,YES,s_m_LENOX_GVUL_ACCORD_XML.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,1024,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,1,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Non-reusable,$PMFailureEmailUser,GVUL Data File <$$GVUL_File_Name> - Informatica process failed,"Hello AMS team,_x000D_
+Informatica is facing an issue with processing the GVUL data feed file. An AMS incident ticket has been created. Please inform business (GVUL_AccountManagementConsultants@metlife.com) with further steps and resolution plan if the issue is not resolved by 8 AM EST.",on_failure_mail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_IDI_FTP,Session,s_m_LENOX_IDI_FTP,m_LENOX_IDI_FTP,NO,YES,s_m_LENOX_IDI_FTP.log,$PMSessionLogDir\,,NO,,Insert,Target,10000,YES,NO,Fail task and continue workflow,Auto,NO,NO,NO,NO,NO,NO,NO,NO,Binary,NO,YES,Auto,3000,512MB,5,Auto,Auto,MM/DD/YYYY HH24:MI:SS.US,NO,Session runs,0,0,0,1,1,0,1,Stop,Stop,Stop,$PMBadFileDir\,PMError.log,YES,NO,|,Disabled,1,,,,,,,Non-reusable,$PMFailureEmailUser,IDI Data File <$$IDI_File_Name> - Informatica Unable to Publish the IDI ACORD XML to DET,"Hello AMS Team,_x000D_
+ Informatica is facing an issue with publishing the IDI ACORD XML file to DET. An AMS incident ticket has been created. Please inform business (LenoxDailyGSIFeed@metlife.com) with further steps and resolution plan if the issue is not resolved by 8 AM EST.",on_failure_mail,Non-reusable,,presession_variable_assignment,Non-reusable,postsession_success_variable_assignment,Non-reusable,postsession_failure_variable_assignment

@@ -1,0 +1,5 @@
+policy_number,policy_bind_date,policy_state,policy_csl,policy_premium_received,policy_annual_premium,umbrella_limit,policy_type
+100001,2020-01-01,CA,250/500,100,1200,500,vehicle
+100002,2020-02-01,NY,250/500,50,850,0,vehicle
+100003,2020-03-01,TX,500/1000,75,1500,100,home
+

@@ -1,0 +1,10 @@
+Subject Area,Workflow Name,Concurrent (Yes/No),Total Number of components,Active Task Count,Sessions,Session Weightage,Email Tasks,Emails At Session level,Email Weightage,Command Task,Commands at Session Level,Command Weightage,Assignment Task,Worklet (Non Reusable),Reusable Worklet,Worklet Weightage,Decision Task,Event  Wait Task,Event Raise Task,Timer Task,Count Of Advance Components(Event-Wait+timer+Control),Count Of Other Components(Decision+Event-Raise+Assignment),Control Task
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,YES,4,4,3,50,0,3,50,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,YES,4,4,3,50,0,2,50,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,YES,3,3,2,50,0,2,50,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,NO,3,3,3,50,0,3,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,NO,6,6,6,100,0,6,80,0,13,400,0,0,0,0,0,0,0,0,0,0,0
+MetLife_p2_IB_OPAS_UDX,wkf_s_m_load_T_SCHED_VAL_CVR_EX,NO,1,1,1,50,0,1,50,0,1,50,0,0,0,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_token_creation_for_getplatform,NO,1,1,1,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_GVUL_ACCORD_XML,NO,1,1,1,50,0,1,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_IDI_FTP,NO,1,1,1,50,0,1,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0

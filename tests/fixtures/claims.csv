@@ -1,0 +1,5 @@
+ClaimNum,Claim_policy_number,incident_date,incident_type,collision_type,incident_severity,authorities_contacted,incident_state,incident_city,incident_location,incident_hour_of_the_day,number_of_vehicles_involved,property_damage,bodily_injuries,witnesses,police_report_available,total_claim_amount,injury_claim,property_claim,vehicle_claim,auto_make,auto_model,auto_year,fraud_reported
+1,100001,2021-05-10,Single Vehicle Collision,Rear Collision,Minor,Police,CA,San Jose,Hwy 101,14,1,YES,0,1,YES,5000,1000,1500,2500,Toyota,Camry,2018,Y
+2,100002,2021-06-11,Vehicle Theft,N/A,Major,None,NY,New York,Street,0,0,NO,0,0,NO,15000,0,5000,10000,Honda,Civic,2020,N
+3,100003,2021-07-12,Parked Car,Side Collision,Minor,Ambulance,TX,Austin,Lot,10,2,YES,1,2,YES,7500,500,2000,5000,Ford,F-150,2019,Y
+

@@ -1,0 +1,42 @@
+spark:
+  shuffle_partitions: 8
+sources:
+  agreements_table: "sandbox.compliance.t_agre_obj_id_bnd"
+  party_role_table: "sandbox.compliance.t_agre_party_role_snapshot"
+  party_snapshot_table: "sandbox.compliance.t_party_snapshot"
+  user_profiles_table: "sandbox.identity.t_user_profiles"
+  role_codes: ["PRIMARY", "SUBSCRIBER"]
+  agreement_status: ["Active"]
+job:
+  age_threshold: 18
+  request_prefix: "ETL_DISABLE"
+  headers: {}
+auth:
+  bearer_token:
+    env: "DISABLE_API_BEARER_TOKEN"
+  headers:
+    x_ibm_client_id:
+      env: "DISABLE_API_CLIENT_ID"
+    x_ibm_client_secret:
+      env: "DISABLE_API_CLIENT_SECRET"
+    x_customer_id:
+      value: "TODO"
+    x_aai_ope_id:
+      value: "TODO"
+http:
+  base_url_prefix: "https://example.api/users"
+  base_url_suffix: "/disable"
+  timeout_seconds: 10
+outputs:
+  disable_response:
+    catalog: "sandbox"
+    schema: "compliance"
+    table: "user_disable_response"
+  eligible_audit:
+    catalog: "sandbox"
+    schema: "compliance"
+    table: "user_disable_candidates"
+  underage_audit:
+    catalog: "sandbox"
+    schema: "compliance"
+    table: "user_underage_audit"

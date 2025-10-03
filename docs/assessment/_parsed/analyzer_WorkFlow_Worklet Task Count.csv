@@ -1,0 +1,10 @@
+Subject Area,Parent Type,Parent Name,Workflow/Worklet Name,Workflow/Worklet,Total Tasks Count,Active Task Count,Session Task,Command Task,Assignment Task,Email Task,Decision Task,Event  Wait Task,Event Raise Task,Worklet Task,Timer Task,Control Task
+MetLife_p2_CSC_GroupLife,Workflow,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Workflow,4,4,3,0,1,0,0,0,0,0,0,0
+MetLife_p2_CSC_GroupLife,Workflow,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Workflow,4,4,3,0,1,0,0,0,0,0,0,0
+MetLife_p2_CSC_GroupLife,Workflow,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Workflow,3,3,2,0,1,0,0,0,0,0,0,0
+MetLife_p2_IB_OPAS_UDX,Workflow,wkf_m_load_all_accord,wkf_m_load_all_accord,Workflow,3,3,3,0,0,0,0,0,0,0,0,0
+MetLife_p2_IB_OPAS_UDX,Workflow,wkf_load_ods_1203,wkf_load_ods_1203,Workflow,6,6,6,0,0,0,0,0,0,0,0,0
+MetLife_p2_IB_OPAS_UDX,Workflow,wkf_s_m_load_T_SCHED_VAL_CVR_EX,wkf_s_m_load_T_SCHED_VAL_CVR_EX,Workflow,1,1,1,0,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,Workflow,wf_m_LENOX_token_creation_for_getplatform,wf_m_LENOX_token_creation_for_getplatform,Workflow,1,1,1,0,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,Workflow,wf_m_LENOX_GVUL_ACCORD_XML,wf_m_LENOX_GVUL_ACCORD_XML,Workflow,1,1,1,0,0,0,0,0,0,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,Workflow,wf_m_LENOX_IDI_FTP,wf_m_LENOX_IDI_FTP,Workflow,1,1,1,0,0,0,0,0,0,0,0,0

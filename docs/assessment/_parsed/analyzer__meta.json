@@ -1,0 +1,112 @@
+{
+  "Summary": {
+    "rows": 12,
+    "cols": 2,
+    "path": "docs\\assessment\\_parsed\\analyzer_Summary.csv"
+  },
+  "Workflow Details": {
+    "rows": 237,
+    "cols": 4,
+    "path": "docs\\assessment\\_parsed\\analyzer_Workflow Details.csv"
+  },
+  "Workflow Task Details": {
+    "rows": 32,
+    "cols": 13,
+    "path": "docs\\assessment\\_parsed\\analyzer_Workflow Task Details.csv"
+  },
+  "Workflow Session Details": {
+    "rows": 21,
+    "cols": 74,
+    "path": "docs\\assessment\\_parsed\\analyzer_Workflow Session Details.csv"
+  },
+  "Workflow Lineage": {
+    "rows": 24,
+    "cols": 7,
+    "path": "docs\\assessment\\_parsed\\analyzer_Workflow Lineage.csv"
+  },
+  "Mapping Component Details": {
+    "rows": 2170,
+    "cols": 8,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapping Component Details.csv"
+  },
+  "Mapping_Mapplet Component Count": {
+    "rows": 18,
+    "cols": 46,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapping_Mapplet Component Count.csv"
+  },
+  "Mapping Column Details": {
+    "rows": 15474,
+    "cols": 28,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapping Column Details.csv"
+  },
+  "Mapplet Details": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapplet Details.csv"
+  },
+  "Mapplet Component Details": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapplet Component Details.csv"
+  },
+  "Mapplet Column Details": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapplet Column Details.csv"
+  },
+  "WorkFlow_Worklet Task Count": {
+    "rows": 9,
+    "cols": 17,
+    "path": "docs\\assessment\\_parsed\\analyzer_WorkFlow_Worklet Task Count.csv"
+  },
+  "Parameter and Variable Details": {
+    "rows": 82,
+    "cols": 12,
+    "path": "docs\\assessment\\_parsed\\analyzer_Parameter and Variable Details.csv"
+  },
+  "Worklet Session Details": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Worklet Session Details.csv"
+  },
+  "Mapplet Lineage": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapplet Lineage.csv"
+  },
+  "Mapping Lineage": {
+    "rows": 10084,
+    "cols": 9,
+    "path": "docs\\assessment\\_parsed\\analyzer_Mapping Lineage.csv"
+  },
+  "Worklet Task Details": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Worklet Task Details.csv"
+  },
+  "Worklet Lineage": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_Worklet Lineage.csv"
+  },
+  "Source Target Details (Session)": {
+    "rows": 3793,
+    "cols": 16,
+    "path": "docs\\assessment\\_parsed\\analyzer_Source Target Details (Session).csv"
+  },
+  "User Defined Functions": {
+    "rows": 0,
+    "cols": 0,
+    "path": "docs\\assessment\\_parsed\\analyzer_User Defined Functions.csv"
+  },
+  "Scheduler Details": {
+    "rows": 9,
+    "cols": 5,
+    "path": "docs\\assessment\\_parsed\\analyzer_Scheduler Details.csv"
+  },
+  "Pattern Details": {
+    "rows": 17,
+    "cols": 2,
+    "path": "docs\\assessment\\_parsed\\analyzer_Pattern Details.csv"
+  }
+}

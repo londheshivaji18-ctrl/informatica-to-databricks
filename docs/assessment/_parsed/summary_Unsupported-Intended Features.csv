@@ -1,0 +1,8 @@
+Subject Area,Mapping-Mapplet,Name,Object Name,Type (Unsupported Function/Components/System Variables),Unsupported/Intended,Count of Occurrences,Expression,Weightage
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_output,Java,Component,Unsupported,1,,100
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_IDI_FTP,XML Source Qualifier,Component,Unsupported,1,,200
+MetLife_p2_CSC_GroupLife,MAPPING,m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,App Multi-Group Source Qualifier,Component,Unsupported,1,,20
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_GVUL_ACCORD_XML,XML Parser,Component,Unsupported,1,,200
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_output,Unstructured Data,Component,Unsupported,1,,1180
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_GVUL_ACCORD_XML,CUME,Unsupported Function,Unsupported,1,**Cume(1),10
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_token_creation_for_getplatform,Http,Component,Unsupported,1,,200

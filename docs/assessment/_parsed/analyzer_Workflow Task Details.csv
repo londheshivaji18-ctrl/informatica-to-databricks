@@ -1,0 +1,33 @@
+Subject Area,Workflow Name,TaskType,Task Name,Original Task Name,Properties Name,Properties Value,Task Reusable,Fail Parent if task fails,Fail Parent if task does not run,Disable Task,Treat the input links,Resolved Param Value
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,s_m_Transfer_HDFS_Member_Diary_Delta_TRIGGER,s_m_Transfer_HDFS_Member_Diary_Delta_TRIGGER,Description,Populate Trigger file to HDFS on successful transmission of data file. The trigger file will contain the record count of data file and corresponding counter value.,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Diary_Active_One_Time_Extraction,s_m_STARTRAK_Member_Diary_Active_One_Time_Extraction,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Assignment,Assignment,Assignment,User defined variable,$$Data_file_count='0',NO,YES,NO,NO,AND,$$Data_file_count='0'
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Assignment,Assignment,Assignment,User defined variable,$$Data_file_count=$s_m_STARTRAK_Member_Diary_Delta_Data_Extraction.TgtSuccessRows,NO,YES,NO,NO,AND,$$Data_file_count=$s_m_STARTRAK_Member_Diary_Delta_Data_Extraction.TgtSuccessRows
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Assignment,Assignment,Assignment,Description,Assign the Data file success record count to variable.,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Diary_Delta_Data_Extraction,s_m_STARTRAK_Member_Diary_Delta_Data_Extraction,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction,s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Assignment,Assignment,Assignment,User defined variable,$$Data_file_count='0',NO,YES,NO,NO,AND,$$Data_file_count='0'
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Assignment,Assignment,Assignment,User defined variable,$$Data_file_count=$s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction.TgtSuccessRows,NO,YES,NO,NO,AND,$$Data_file_count=$s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction.TgtSuccessRows
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Assignment,Assignment,Assignment,Description,Assign the Data file success record count to variable.,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,s_m_Transfer_HDFS_Member_Member_Active_Onetime_TRIGGER,s_m_Transfer_HDFS_Member_Member_Active_Onetime_TRIGGER,Description,Populate Trigger file to HDFS on successful transmission of data file. The trigger file will contain the record count of data file and corresponding counter value.,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,s_m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,s_m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Session,s_m_Transfer_HDFS_ACCOUNTING_Onetime_TRIGGER,s_m_Transfer_HDFS_ACCOUNTING_Onetime_TRIGGER,Description,Populate Trigger file to HDFS on successful transmission of data file. The trigger file will contain the record count of data file and corresponding counter value.,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Assignment,Assignment,Assignment,User defined variable,$$Data_file_count='0',NO,YES,NO,NO,AND,$$Data_file_count='0'
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Assignment,Assignment,Assignment,User defined variable,$$Data_file_count=$s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction.TgtSuccessRows,NO,YES,NO,NO,AND,$$Data_file_count=$s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction.TgtSuccessRows
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Assignment,Assignment,Assignment,Description,Assign target success count to wkf variable,NO,YES,NO,NO,AND,
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Session,s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Description,Populate file to HDFS,NO,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,s_m_T_INS_POL_TRAN_Rejected_Records,s_m_T_INS_POL_TRAN_Rejected_Records,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,s_m_load_ods_all_accord,s_m_load_ods_all_accord,Description,,NO,NO,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,s_m_update_opas_all_accord,s_m_update_opas_all_accord,Description,,NO,NO,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_ods_acord_1203,s_m_load_ods_acord_1203,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_output_1203,s_m_load_opas_output,Description,,YES,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_output_1203,s_m_load_opas_output,Repository Task Name,s_m_load_opas_output,YES,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_delete_ods_acord_1203,s_m_delete_ods_acord_1203,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_update_opas_1203,s_m_update_opas_1203,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_output_1203_Agent,s_m_load_opas_output,Description,,YES,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_output_1203_Agent,s_m_load_opas_output,Repository Task Name,s_m_load_opas_output,YES,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,s_m_load_opas_input_1203,s_m_load_opas_input_1203,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_IB_OPAS_UDX,wkf_s_m_load_T_SCHED_VAL_CVR_EX,Session,s_m_load_T_SCHED_VAL_CVR_EX,s_m_load_T_SCHED_VAL_CVR_EX,Description,,NO,YES,NO,NO,AND,
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_token_creation_for_getplatform,Session,s_m_LENOX_token_creation_for_getplatform,s_m_LENOX_token_creation_for_getplatform,Description,,NO,YES,YES,NO,AND,
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_GVUL_ACCORD_XML,Session,s_m_LENOX_GVUL_ACCORD_XML,s_m_LENOX_GVUL_ACCORD_XML,Description,,NO,YES,YES,NO,AND,
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_IDI_FTP,Session,s_m_LENOX_IDI_FTP,s_m_LENOX_IDI_FTP,Description,,NO,YES,YES,NO,AND,

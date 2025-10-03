@@ -1,0 +1,19 @@
+Subject Area,Mapping Name,Mapping Weightage,Complexity,Mapping Weightage - Included Mapplet ,Mapping Complexity - Mapplet Included,Unused/Unconnected Mapping
+MetLife_p2_CSC_GroupLife,m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,130,SIMPLE,130,SIMPLE,NO
+MetLife_p2_CSC_GroupLife,m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,810,HIGH COMPLEX,810,HIGH COMPLEX,NO
+MetLife_p2_CSC_GroupLife,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,520,COMPLEX,520,COMPLEX,NO
+MetLife_p2_CSC_GroupLife,m_STARTRAK_Member_Diary_Active_One_Time_Extraction,110,SIMPLE,110,SIMPLE,NO
+MetLife_p2_CSC_GroupLife,m_STARTRAK_Member_Diary_Delta_Data_Extraction,540,COMPLEX,540,COMPLEX,NO
+MetLife_p2_CSC_GroupLife,m_Transfer_SOR_MF_HDFS_TRIGGER,90,SIMPLE,90,SIMPLE,NO
+MetLife_p2_IB_OPAS_UDX,m_delete_ods_acord_1203,55,SIMPLE,55,SIMPLE,NO
+MetLife_p2_IB_OPAS_UDX,m_update_opas_1203,155,SIMPLE,155,SIMPLE,NO
+MetLife_p2_IB_OPAS_UDX,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,190,SIMPLE,190,SIMPLE,NO
+MetLife_p2_IB_OPAS_UDX,m_load_opas_input,305,MEDIUM,305,MEDIUM,NO
+MetLife_p2_IB_OPAS_UDX,m_load_ods_all_accord,1930,SUPER COMPLEX,1930,SUPER COMPLEX,NO
+MetLife_p2_IB_OPAS_UDX,m_load_ods_acord_1203,1370,SUPER COMPLEX,1370,SUPER COMPLEX,NO
+MetLife_p2_IB_OPAS_UDX,m_load_opas_output,1370,SUPER COMPLEX,1370,SUPER COMPLEX,NO
+MetLife_p2_IB_OPAS_UDX,m_update_opas_all_accord,95,SIMPLE,95,SIMPLE,NO
+MetLife_p2_IB_OPAS_UDX,m_T_INS_POL_TRAN_Rejected_Records,100,SIMPLE,100,SIMPLE,NO
+MetLife_p2_RAD_APP11538_GVWB_LNOX,m_LENOX_token_creation_for_getplatform,290,MEDIUM,290,MEDIUM,NO
+MetLife_p2_RAD_APP11538_GVWB_LNOX,m_LENOX_GVUL_ACCORD_XML,1110,HIGH COMPLEX,1110,HIGH COMPLEX,NO
+MetLife_p2_RAD_APP11538_GVWB_LNOX,m_LENOX_IDI_FTP,350,MEDIUM,350,MEDIUM,NO

@@ -1,0 +1,21 @@
+Subject Area,Workflow/Worklet,Workflow/Worklet Name,Location,Object Name,Reusable,Command Name,Command Value
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Pre-session command,s_m_load_ods_acord_1203,Non-reusable,Command1,echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_ods_acord_1203,Non-reusable,Command1,rm $PMTempDir/$ParamTempTgtFile2
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_ods_acord_1203,Non-reusable,Command2,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Pre-session command,s_m_load_opas_output_1203,Non-reusable,Command1,echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_output_1203,Non-reusable,Command2,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_output_1203,Non-reusable,Command1,rm $PMTempDir/$ParamTempTgtFile
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Pre-session command,s_m_delete_ods_acord_1203,Non-reusable,Command1,echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_delete_ods_acord_1203,Non-reusable,Command1,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Pre-session command,s_m_update_opas_1203,Non-reusable,Command1,echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_update_opas_1203,Non-reusable,Command1,rm $PMTempDir/$ParamTempTgtFile
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_update_opas_1203,Non-reusable,Command2,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Pre-session command,s_m_load_opas_output_1203_Agent,Non-reusable,Command1,echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_output_1203_Agent,Non-reusable,Command1,rm $PMTempDir/$ParamTempTgtFile
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_output_1203_Agent,Non-reusable,Command2,
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Pre-session command,s_m_load_opas_input_1203,Non-reusable,Command1,echo $PMSessionName >> $PMWorkflowLogDir/$PMWorkflowName.txt
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_input_1203,Non-reusable,Command1,"echo ""</TXLife>"" >>$PMTempDir/$ParamTempTgtFile"
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_input_1203,Non-reusable,Command2,tr -d '\n\' < $PMTempDir/$ParamTempTgtFile 1>$PMTargetFileDir/$ParamTgtFile
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_input_1203,Non-reusable,Command3,rm $PMTempDir/$ParamTempTgtFile
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,WORKFLOW,Post-session success command,s_m_load_opas_input_1203,Non-reusable,Command4,
+MetLife_p2_IB_OPAS_UDX,wkf_s_m_load_T_SCHED_VAL_CVR_EX,WORKFLOW,Post-session success command,s_m_load_T_SCHED_VAL_CVR_EX,Non-reusable,Command1,"echo -e ""T_SCHED_VAL_CVR_EX,$PMSQ_ASSCHEDULEDVALUATIONFIELD@numAppliedRows,$PMT_SCHED_VAL_CVR_EX@numAppliedRows"" > /work/opas_udx/TgtFiles/outbound/CVR_EX.csv"

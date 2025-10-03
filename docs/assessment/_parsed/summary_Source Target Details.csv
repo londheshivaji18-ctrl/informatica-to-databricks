@@ -1,0 +1,167 @@
+Subject Area,Mapping/Mapplet,Mapping/Mapplet Name,Component Name,Source Qualifier/Target/Lookup,Connection Type(Session),Database Type(Mapping),Dynamic Lookup Cache,Number of Columns,Weightage,Source Weightage,Target Weightage
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Delta_Data_Extraction,Member_Diary_delta_ff,Target,HDFS Connection,Flat File,,7,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Delta_Data_Extraction,SQ_tstcall_trk_CURR,Source Qualifier,HDFS Connection,Flat File,,1,40,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Delta_Data_Extraction,SQ_tstcall_trk_PREV,Source Qualifier,HDFS Connection,Flat File,,1,40,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Delta_Data_Extraction,LKP_arc_tstcall_trk,Lookup,DB Connection,Database,NO,27,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Active_One_Time_Extraction,Member_Diary_Active_ff,Target,HDFS Connection,Flat File,,38,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Diary_Active_One_Time_Extraction,SQ_tstcall_trk,Source Qualifier,DB Connection,Microsoft SQL Server,,38,40,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,Member_Conditions_ff,Target,HDFS Connection,Flat File,,14,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Active_One_Time_Extraction,SQ_tststrtrak_cd,Source Qualifier,DB Connection,Microsoft SQL Server,,13,20,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,Member_Conditions_delta_ff,Target,HDFS Connection,Flat File,,7,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,SQ_tststrtrak_cd_CURR,Source Qualifier,HDFS Connection,Flat File,,1,20,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,SQ_tststrtrak_cd_PREV,Source Qualifier,HDFS Connection,Flat File,,1,20,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_STARTRAK_Member_Conditions_Delta_Data_Extraction,LKP_arc_tststrtrak_cd,Lookup,DB Connection,Database,NO,11,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Accounting_ff,Target,HDFS Connection,Flat File,,486,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,AMGDSQ_accounting_Accounting,Source Qualifier,PowerExchange Reader,PWX_VSAM_NRDB2,,485,120,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_Transfer_SOR_MF_HDFS_TRIGGER,tgt_TRIGGER_ff,Target,HDFS Connection,Flat File,,2,0,0,0
+MetLife_p2_CSC_GroupLife,MAPPING,m_Transfer_SOR_MF_HDFS_TRIGGER,sq_Trigger_File_Src,Source Qualifier,File Reader,Flat File,,1,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_output,OPAS_OUTPUT,Target,File Writer,Flat File,,1,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_output,SQ_OPAS_INPUT,Source Qualifier,File Reader,Flat File,,1,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_1203,ASEQTBLEVENTMESSAGE,Target,DB Connection,ODBC,,13,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_1203,SQ_T_INS_POL_TEMP,Source Qualifier,File Reader,Flat File,,2,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_1203,LKP_PolicyGuid,Lookup,Flat File Lookup,Flat File,NO,2,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_1203,SQ_T_INS_POL,Source Qualifier,DB Connection,DB2,,1,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,T_SCHEDULE_VALUATION_ALL_PORTS,Target,File Writer,Flat File,,34,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,T_SCHED_VAL_CVR_EX,Target,DB Connection,DB2,,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,LKP_TGT,Lookup,DB Connection,Database,NO,5,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_T_SCHED_VAL_CVR_EX_TBL_Load_Error_Report,SQ_ASSCHEDULEDVALUATIONFIELD,Source Qualifier,DB Connection,DB2,,17,40,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_delete_ods_acord_1203,T_INS_POL,Target,DB Connection,DB2,,310,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_delete_ods_acord_1203,SQ_T_INS_POL,Source Qualifier,File Reader,Flat File,,2,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_all_accord,ASEQTBLEVENTMESSAGE,Target,DB Connection,ODBC,,13,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_update_opas_all_accord,SQ_T_INS_POL_TRAN,Source Qualifier,DB Connection,DB2,,3,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_STTS2,Target,DB Connection,DB2,,148,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_INS_POL_TRAN_FUND,Target,DB Connection,DB2,,36,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_INS_POL_TRAN_TEMP,Target,File Writer,Flat File,,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_AGNT_SPLT_PCT_POL_CHG,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_POL_CHG1,Target,DB Connection,DB2,,34,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_RDR_SURR_VAL_STTS_temp,Target,File Writer,Flat File,,7,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_POL_CHG_RDR1,Target,DB Connection,DB2,,37,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_POL_CHG_RDR_temp,Target,File Writer,Flat File,,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_RSTRC_NOTE1_505,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_DSBRS,Target,DB Connection,DB2,,106,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_DSBRS_RDR_temp,Target,File Writer,Flat File,,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_DSBRS_RSTRC1,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_DIVD_TERM_CONV1,Target,DB Connection,DB2,,23,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_AGNT_PCT_SPLT_DSBRS1,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_DSBRS_RDR1,Target,DB Connection,DB2,,34,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_MO_ANNV_FUND,Target,DB Connection,DB2,,10,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_CVG_MO_ANNV1,Target,DB Connection,DB2,,17,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_MO_ANNV1,Target,DB Connection,DB2,,25,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_CVG_MO_ANNV_temp,Target,File Writer,Flat File,,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_ADDL_CRRS,Target,DB Connection,DB2,,33,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_IMP_INCM,Target,DB Connection,DB2,,26,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_POL_HIST1,Target,DB Connection,DB2,,17,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_TAX_RPT1,Target,DB Connection,DB2,,44,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_RPT_NTFN1,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_ANNV1,Target,DB Connection,DB2,,74,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_COMM1,Target,DB Connection,DB2,,37,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_ANNV_CVR_STTS1,Target,DB Connection,DB2,,31,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_SCHD_PREM_CHG,Target,DB Connection,DB2,,62,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_PRDCR_CHG1,Target,DB Connection,DB2,,26,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_BILL,Target,DB Connection,DB2,,72,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_CVR_OPT_BILL1,Target,DB Connection,DB2,,12,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_DIVD_TFER1,Target,DB Connection,DB2,,19,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_QPP_CHG1,Target,DB Connection,DB2,,17,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_PRICE_CORR1,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_FND_TRFR1,Target,DB Connection,DB2,,15,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_AGNT_PCT_SPLT1,Target,DB Connection,DB2,,14,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_MODE_PREM_PY1,Target,DB Connection,DB2,,37,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_PY1,Target,DB Connection,DB2,,98,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_FLD_CHG1,Target,DB Connection,DB2,,15,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_APO_ELCT1,Target,DB Connection,DB2,,12,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_PARTY_CHG1,Target,DB Connection,DB2,,55,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_NFRFT_CHG1,Target,DB Connection,DB2,,12,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_MODE_PREM_PY_TEMP,Target,File Writer,Flat File,,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_DIVD_DSBRS_CHG1,Target,DB Connection,DB2,,21,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_APO_TERM1,Target,DB Connection,DB2,,10,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_CHLD_DTH_CLM1,Target,DB Connection,DB2,,17,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_COMM_CHRGBCK1,Target,DB Connection,DB2,,15,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_AGNT_PCT_SPLT_SURR1,Target,DB Connection,DB2,,15,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_INS_POL_TRAN,Target,DB Connection,DB2,,25,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_RDR_SURR_VAL_STTS1,Target,DB Connection,DB2,,47,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,T_POL_TRAN_COMM_TEMP,Target,File Writer,Flat File,,7,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,lkp_opas_pre_input,Lookup,Flat File Lookup,Flat File,NO,2,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,lkp_t_ins_pol_tran_temp,Lookup,Flat File Lookup,Flat File,NO,5,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_MO_ANNV,Source Qualifier,File Reader,Flat File,,26,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_DIVD_DSBRS_CHG,Source Qualifier,File Reader,Flat File,,22,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_PY,Source Qualifier,File Reader,Flat File,,95,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_AGNT_SPLT_PCT_POL_CHG,Source Qualifier,File Reader,Flat File,,16,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_APO_ELCT,Source Qualifier,File Reader,Flat File,,13,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,lkp_t_mode_prem_py_temp,Lookup,Flat File Lookup,Flat File,NO,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_POL_CHG,Source Qualifier,File Reader,Flat File,,35,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_RDR_SURR_VAL_STTS,Source Qualifier,File Reader,Flat File,,49,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,lkp_t_rdr_surr_val_stts_temp,Lookup,Flat File Lookup,Flat File,NO,7,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_ASFUNDVALUATIONEFFECT,Source Qualifier,DB Connection,DB2,,17,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_CHLD_DTH_CLM,Source Qualifier,File Reader,Flat File,,18,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_IMP_INCM,Source Qualifier,File Reader,Flat File,,27,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_CVR_OPT_BILL,Source Qualifier,File Reader,Flat File,,13,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_DIVD_TFER,Source Qualifier,File Reader,Flat File,,20,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_MODE_PREM_PY,Source Qualifier,File Reader,Flat File,,39,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_AGNT_PCT_SPLT_SURR,Source Qualifier,File Reader,Flat File,,17,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_QPP_CHG,Source Qualifier,File Reader,Flat File,,18,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_FND_TRFR,Source Qualifier,File Reader,Flat File,,16,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_CVG_MO_ANNV,Source Qualifier,File Reader,Flat File,,18,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_RSTRC_NOTE,Source Qualifier,File Reader,Flat File,,15,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_RPT_NTFN,Source Qualifier,File Reader,Flat File,,15,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_AGNT_PCT_SPLT_DSBRS,Source Qualifier,File Reader,Flat File,,16,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_PARTY_CHG,Source Qualifier,File Reader,Flat File,,41,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_POL_HIST,Source Qualifier,File Reader,Flat File,,18,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,LKP_T_POL_TRAN_POL_CHG_RDR_temp,Lookup,Flat File Lookup,Flat File,NO,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_COMM_CHRGBCK,Source Qualifier,File Reader,Flat File,,17,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,LKP_COMM_CHRGBCK,Lookup,Flat File Lookup,Flat File,NO,5,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_FLD_CHG,Source Qualifier,File Reader,Flat File,,16,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_ANNV,Source Qualifier,File Reader,Flat File,,75,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_DSBRS_RSTRC,Source Qualifier,File Reader,Flat File,,15,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_INS_POL_TRAN_FUND,Source Qualifier,File Reader,Flat File,,38,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_NFRFT_CHG,Source Qualifier,File Reader,Flat File,,13,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_POL_CHG_RDR,Source Qualifier,File Reader,Flat File,,39,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_ADDL_CRRS_1203,Source Qualifier,File Reader,Flat File,,34,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_STTS,Source Qualifier,File Reader,Flat File,,143,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_TAX_RPT,Source Qualifier,File Reader,Flat File,,45,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_DIVD_TERM_CONV,Source Qualifier,File Reader,Flat File,,24,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_DSBRS1,Source Qualifier,File Reader,Flat File,,105,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,lkp_DSBRS_RDR,Lookup,Flat File Lookup,Flat File,NO,6,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_AGNT_PCT_SPLT,Source Qualifier,File Reader,Flat File,,16,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_DSBRS_RDR,Source Qualifier,File Reader,Flat File,,36,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_BILL_1801,Source Qualifier,File Reader,Flat File,,71,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_PRDCR_CHG,Source Qualifier,File Reader,Flat File,,27,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_PRICE_CORR,Source Qualifier,File Reader,Flat File,,15,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_COMM,Source Qualifier,File Reader,Flat File,,37,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_APO_TERM,Source Qualifier,File Reader,Flat File,,11,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_ANNV_CVR_STTS,Source Qualifier,File Reader,Flat File,,32,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_POL_TRAN_SCHD_PREM_CHG,Source Qualifier,File Reader,Flat File,,58,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_all_accord,SQ_T_INS_POL_TRAN,Source Qualifier,File Reader,Flat File,,24,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_INS_POL_TEMP,Target,File Writer,Flat File,,2,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_INS_POL_Pol_crrs,Target,File Writer,Flat File,,3,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_INS_POL_CVR1,Target,DB Connection,DB2,,122,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_CVR_WRT_AGNT1,Target,DB Connection,DB2,,12,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_POL_BUS_PARTY1,Target,DB Connection,DB2,,37,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_INS_POL,Target,DB Connection,DB2,,310,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_1035_POL_XCHG1,Target,DB Connection,DB2,,9,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_POL_CRRS1,Target,DB Connection,DB2,,8,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_INS_POL_CVR_TEMP,Target,File Writer,Flat File,,4,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,T_INS_POL_FUND1,Target,DB Connection,DB2,,9,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_POL_CRRS,Source Qualifier,File Reader,Flat File,,10,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,LKP_T_INS_POL_pol_crrs,Lookup,Flat File Lookup,Flat File,NO,3,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_INS_POL_CVR,Source Qualifier,File Reader,Flat File,,83,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_POL_BUS_PARTY,Source Qualifier,File Reader,Flat File,,32,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,lkp_t_ins_pol_cvr_temp,Lookup,Flat File Lookup,Flat File,NO,4,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_INS_POL_FUND,Source Qualifier,File Reader,Flat File,,8,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_INS_POL,Source Qualifier,File Reader,Flat File,,271,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_1035_POL_XCHG,Source Qualifier,File Reader,Flat File,,9,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_ods_acord_1203,SQ_T_CVR_WRT_AGNT,Source Qualifier,File Reader,Flat File,,14,120,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_input,ASEQTBLEVENTMESSAGE1,Target,DB Connection,ODBC,,13,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_input,OPAS_INPUT,Target,File Writer,Flat File,,1,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_input,SQ_ASEQTBLEVENTMESSAGE_Err,Source Qualifier,DB Connection,ODBC,,1,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_input,lkp_PRE_INPUT,Lookup,Flat File Lookup,Flat File,NO,2,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_load_opas_input,SQ_ASEQTBLEVENTMESSAGE,Source Qualifier,DB Connection,ODBC,,2,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_T_INS_POL_TRAN_Rejected_Records,TGT_T_INS_POL_TRAN_UNAVAILABLE_ACCORDS,Target,File Writer,Oracle,,3,0,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_T_INS_POL_TRAN_Rejected_Records,SQ_SRC_T_INS_POL_TRAN_TEMP,Source Qualifier,File Reader,Flat File,,5,20,0,0
+MetLife_p2_IB_OPAS_UDX,MAPPING,m_T_INS_POL_TRAN_Rejected_Records,SQ_T_INS_POL_TRAN,Source Qualifier,DB Connection,DB2,,6,20,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_IDI_FTP,TXLife_42_00_ver_5,Target,XML Writer,XML,,343,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_IDI_FTP,XMLDSQ_TXLife_42_00_ver_5,Source Qualifier,XML Reader,,,343,120,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_GVUL_ACCORD_XML,TXLife_42_00_ver_1_GVUL_9,Target,XML Writer,XML,,137,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_GVUL_ACCORD_XML,tgt_Flat,Target,File Writer,Flat File,,1,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_GVUL_ACCORD_XML,SQ_src_GVUL,Source Qualifier,File Reader,Flat File,,67,80,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_token_creation_for_getplatform,FF_Getplatform_token,Target,File Writer,Flat File,,1,0,0,0
+MetLife_p2_RAD_APP11538_GVWB_LNOX,MAPPING,m_LENOX_token_creation_for_getplatform,SQ_Src_SMD,Source Qualifier,File Reader,Flat File,,1,20,0,0

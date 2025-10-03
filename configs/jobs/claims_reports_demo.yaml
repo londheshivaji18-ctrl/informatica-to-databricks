@@ -1,0 +1,18 @@
+inputs:
+  claims: tests/fixtures/claims.csv
+  policy: tests/fixtures/policy.csv
+  member: tests/fixtures/member.csv
+
+outputs:
+  total_claim:
+    catalog: dev
+    schema: insurance
+    table: total_claim_ff_full
+  fraud_by_state:
+    catalog: dev
+    schema: insurance
+    table: fruad_smoker_by_state
+
+write_mode: overwrite
+shuffle_partitions: 1
+

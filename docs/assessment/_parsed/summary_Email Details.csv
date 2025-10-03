@@ -1,0 +1,232 @@
+Subject Area,Location(Workflow_Worklet Name/Session Name),Task Type,Reusable/Non reusable,Task Name,On Failure Email Type,On Failure Email User Name,On Failure Email Subject,On Failure Email Text,On Failure Email Value
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,NO,s_m_Transfer_HDFS_Member_Diary_Delta_TRIGGER,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,NO,s_m_STARTRAK_Member_Diary_Active_One_Time_Extraction,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Diary_Delta_Data_Extraction,Session,NO,s_m_STARTRAK_Member_Diary_Delta_Data_Extraction,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,NO,s_m_STARTRAK_Member_Conditions_Active_Delta_Data_Extraction,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email
+MetLife_p2_CSC_GroupLife,wf_STARTRAK_Member_Conditions_Delta_Data_Extraction,Session,NO,s_m_Transfer_HDFS_Member_Member_Active_Onetime_TRIGGER,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log_x000D_
+Session Log Path                    : $PMSessionLogDir",Failure_Email
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Session,NO,s_m_Transfer_HDFS_ACCOUNTING_Onetime_TRIGGER,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w.$$RUN_INP run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log.$$RUN_INP_x000D_
+Session Log Path                    : $PMSessionLogDir",GBS_Failure_Email
+MetLife_p2_CSC_GroupLife,wf_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Session,NO,s_m_GBS_CONTROL_ACCOUNTING_One_Time_Extraction,Reusable,$PMFailureEmailUser,$$FailureEmailSubject,"""----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL----------------------------------""_x000D_
+_x000D_
+Workflow %w.$$RUN_INP run  has failed. Needs immediate PM team attention _x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Integration Service Name   :  %v _x000D_
+Repository Name                   :  %d _x000D_
+Folder Name                            :  %n _x000D_
+Session Name                          :  %s_x000D_
+_x000D_
+Session Log Name                 : %s.log.$$RUN_INP_x000D_
+Session Log Path                    : $PMSessionLogDir",GBS_Failure_Email
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,NO,s_m_T_INS_POL_TRAN_Rejected_Records,Non-reusable,$PMFailureEmailUser,Statistics file generation for T_INS_POL_TRAN failed.,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention_x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",on_failure_mail
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,NO,s_m_load_ods_all_accord,Non-reusable,$PMFailureEmailUser,The workflow for loading all Accord information has failed.,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention_x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",on_failure_mail
+MetLife_p2_IB_OPAS_UDX,wkf_m_load_all_accord,Session,NO,s_m_update_opas_all_accord,Non-reusable,$PMFailureEmailUser,The workflow for updating all Accord information has failed.,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Workflow %w run  has failed. Needs immediate PM team attention_x000D_
+_x000D_
+Details :- _x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",on_failure_mail
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,NO,s_m_load_ods_acord_1203,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,YES,s_m_load_opas_output_1203,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,NO,s_m_delete_ods_acord_1203,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,NO,s_m_update_opas_1203,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,YES,s_m_load_opas_output_1203_Agent,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_IB_OPAS_UDX,wkf_load_ods_1203,Session,NO,s_m_load_opas_input_1203,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_IB_OPAS_UDX,wkf_s_m_load_T_SCHED_VAL_CVR_EX,Session,NO,s_m_load_T_SCHED_VAL_CVR_EX,Reusable,$PMFailureEmailUser,OPAS to ODS $ParamData data load failed,"-----------------------------------PLEASE DO NOT RESPOND TO THIS EMAIL-----------------------------------_x000D_
+_x000D_
+Description     		 :   $ParamData data load failed._x000D_
+_x000D_
+Repository Name     	       :   %d_x000D_
+INT. Service Name     	       :   %v_x000D_
+Workflow Name   		 :   %w_x000D_
+Map Name        		 :   %m_x000D_
+Session Name    		 :   %s_x000D_
+Folder Name     		 :   %n_x000D_
+_x000D_
+Please see attached Informatica session log for more details._x000D_
+%g",eml_fail
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_GVUL_ACCORD_XML,Session,NO,s_m_LENOX_GVUL_ACCORD_XML,Non-reusable,$PMFailureEmailUser,GVUL Data File <$$GVUL_File_Name> - Informatica process failed,"Hello AMS team,_x000D_
+Informatica is facing an issue with processing the GVUL data feed file. An AMS incident ticket has been created. Please inform business (GVUL_AccountManagementConsultants@metlife.com) with further steps and resolution plan if the issue is not resolved by 8 AM EST.",on_failure_mail
+MetLife_p2_RAD_APP11538_GVWB_LNOX,wf_m_LENOX_IDI_FTP,Session,NO,s_m_LENOX_IDI_FTP,Non-reusable,$PMFailureEmailUser,IDI Data File <$$IDI_File_Name> - Informatica Unable to Publish the IDI ACORD XML to DET,"Hello AMS Team,_x000D_
+ Informatica is facing an issue with publishing the IDI ACORD XML file to DET. An AMS incident ticket has been created. Please inform business (LenoxDailyGSIFeed@metlife.com) with further steps and resolution plan if the issue is not resolved by 8 AM EST.",on_failure_mail

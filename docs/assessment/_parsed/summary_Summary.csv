@@ -1,0 +1,73 @@
+Object,Count of Objects,Unnamed: 2,Unnamed: 4,Unnamed: 5,Unnamed: 6
+Mappings,18,,,,
+Mapplets,0,,,,
+Sessions (Reusable),2,,,,
+Sessions (Non Reusable),19,,,,
+Worklets ( Reusable),0,,,,
+Worklets (Non Reusable),0,,,,
+Workflows,9,,,,
+Concurrent Workflows,0,,,,
+Distinct User Defined Functions,0,,,,
+Number Of Unconnected Mappings,0,,,,
+Number of Active Mappings,18,,,,
+Number of Active Mapplet Instances,0,,,,
+Number of Active Mapplets,0,,,,
+Active Mappings,Number of Mapping,Percentage,All Mappings,Number of Mapping,Percentage
+SIMPLE,8,44.0,SIMPLE,8,44.0
+MEDIUM,3,17.0,MEDIUM,3,17.0
+COMPLEX,2,11.0,COMPLEX,2,11.0
+HIGH COMPLEX,2,11.0,HIGH COMPLEX,2,11.0
+SUPER COMPLEX,3,17.0,SUPER COMPLEX,3,17.0
+Active Mapplet,Number of Mapplets,Percentage,All Mapplet,Number of Mapplets,Percentage
+SIMPLE,0,0.0,SIMPLE,0,0.0
+MEDIUM,0,0.0,MEDIUM,0,0.0
+COMPLEX,0,0.0,COMPLEX,0,0.0
+HIGH COMPLEX,0,0.0,HIGH COMPLEX,0,0.0
+SUPER COMPLEX,0,0.0,SUPER COMPLEX,0,0.0
+Active Mappings Included Mapplets,Number of Mapping,Percentage,All Mappings Included Mapplets,Number of Mapping,Percentage
+SIMPLE,8,44.0,SIMPLE,8,44.0
+MEDIUM,3,17.0,MEDIUM,3,17.0
+COMPLEX,2,11.0,COMPLEX,2,11.0
+HIGH COMPLEX,2,11.0,HIGH COMPLEX,2,11.0
+SUPER COMPLEX,3,17.0,SUPER COMPLEX,3,17.0
+All Workflows,Number of Workflows,Percentage,,,
+SIMPLE,8,89.0,,,
+MEDIUM,0,0.0,,,
+COMPLEX,1,11.0,,,
+SUPER COMPLEX,0,0.0,,,
+All Worklets,Number of Worklets,Percentage,,,
+SIMPLE,0,0.0,,,
+MEDIUM,0,0.0,,,
+COMPLEX,0,0.0,,,
+SUPER COMPLEX,0,0.0,,,
+Distinct Source Types,,,,,
+ODBC,,,,,
+PWX_VSAM_NRDB2,,,,,
+DB2,,,,,
+Microsoft SQL Server,,,,,
+Flat File,,,,,
+Distinct Target Types,,,,,
+ODBC,,,,,
+DB2,,,,,
+XML,,,,,
+Flat File,,,,,
+Oracle,,,,,
+Component Name,No of Occurrences for All Mappings and Mapplets,No of Occurrences for Active Mappings and Mapplets,,,
+Connected Lookup,7,7,,,
+XML Parser,1,1,,,
+Source,75,75,,,
+Target,80,80,,,
+Application Multi-group Source Qualifier,1,1,,,
+XML Source Qualifier,1,1,,,
+Sorter,17,17,,,
+Update Strategy,4,4,,,
+Java,1,1,,,
+Joiner,4,4,,,
+Aggregator,2,2,,,
+Router,2,2,,,
+Un-Connected Lookup ,7,7,,,
+Source Qualifier,70,70,,,
+HTTP,1,1,,,
+Unstructured Data,1,1,,,
+Filter,6,6,,,
+Expression,117,117,,,
